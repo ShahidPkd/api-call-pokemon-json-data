@@ -21,7 +21,8 @@ const ComA = () =>{
 
         <h1> you choose <span style={{color: 'red'}}>{num}</span>  </h1>
         <h1> My name is <span style={{color: 'red'}}> {name}</span></h1>
-        {/* <h1> Hahahaha</h1> */}
+        <h1> Hahahaha</h1>
+        <h1> new hahaha </h1>
         <select value={num} onChange ={(event) =>{
             setNum(event.target.value);
         }}>
